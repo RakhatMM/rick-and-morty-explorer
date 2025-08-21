@@ -8,7 +8,7 @@ app = FastAPI(title="Rick & Morty Backend", version="1.0.0")
 ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://rick-and-morty-explorer-klat.vercel.app/"
+    "https://rick-and-morty-explorer-klat.vercel.app"
 ]
 
 EXPOSED = ["X-Page", "X-Total-Pages", "X-Total-Count"]
